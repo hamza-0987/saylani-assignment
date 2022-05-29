@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section::-webkit-scrollbar {
+width: 10px;
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0%;
+    background-color: rgba(128, 0, 128, 0.11);
+    left: 0%;
+    z-index:-1;
+}
+
+.section{
+    background-color: white;
+    margin: 50px;
+    display: flex;
+ padding: 0px;
+    /* width: 90%; */
+    height: 80vh;
+    /* position: relative; */
+}
+.left{
+    /* width: 50px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 0px 10px; */
+    
+}
+.left li{
+    list-style: none;
+    margin: 20px 0px;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: purple;
+}
+ion-icon
+{
+font-size: 24px;
+cursor: pointer;
+  }
+  .ac{
+      color: purple;
+  }
+  .last{
+      margin-bottom: 10px;
+  }
+
+
+  /* Image Container */
+  .img{
+      width: 400px;
+      background-color: red;
+      height: 90vh;
+      position: relative;
+      top: -30px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      background: url('./Images/profile.jpeg') no-repeat ;
+      background-size: cover;
+     text-align: center;
+     /* position: absolute; */
+     position: relative;
+  }
+  .info{
+      position: absolute;
+      top: 60%;
+      text-align: center;
+      left: 50%;
+      color: white;
+      width: 100%;
+      transform: translateX(-50%);
+  }
+  h1{
+      font-weight: bolder;
+      display: block;
+
+  }
+  .smedia{
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+  }
+  .sicon{
+      margin: 0px 8px;
+  }
+  .right{
+      width: 800px;
+      padding: 50px;
+      overflow-y: scroll;
+  }
+
+  h3{
+      font-weight: 700;
+  }
+
+.service{
+display: flex;
+margin-top: 50px;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+ margin: 25px 0px;
+    width: 236px;
+}
+.sericon{
+    margin-bottom: 30px;
+    color: purple;
+    font-size: 50px;
+}
